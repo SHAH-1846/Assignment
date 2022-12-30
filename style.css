@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.btn {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: large;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    max-width: 1294px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
